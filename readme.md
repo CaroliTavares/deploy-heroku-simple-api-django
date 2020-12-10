@@ -1,4 +1,4 @@
-- > Criando Projeto
+#### :wrench: Criando Projeto
 ```
 $ python -m venv myvenv
 $ myvenv\Scripts\activate
@@ -12,7 +12,8 @@ $ python manage.py makemigrations
 $ python manage.py migrate
 $ python manage.py createsuperuser
 ```
-- > Fazendo Deploy  de api simples no Heroku
+#### :wrench: Fazendo Deploy  de api simples no Heroku
+
 ```
 $ heroku login -i
 $ heroku git:remote -a <nome criado no site do heroku>
