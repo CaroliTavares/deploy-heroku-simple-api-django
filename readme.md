@@ -16,12 +16,13 @@ $ python manage.py createsuperuser
 
 ```
 $ heroku login -i
-$ heroku git:remote -a <nome criado no site do heroku>
 $ git init
+$ heroku git:remote -a <nome criado no site do heroku>
 $ git add .
 $ git commit -m "deploy"
+$ git branch
 $ git push -u heroku main
 $ heroku run python manage.py migrate
-$ heroku run python manage.py create superuser
+$ heroku run python manage.py createsuperuser
 ```
 
